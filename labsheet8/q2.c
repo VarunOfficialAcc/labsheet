@@ -3,6 +3,7 @@ int x=-1, y=-2, z=-3;
 void f1( int x , int z)
 {
     y= ++x +--z +(y+=2);
+    //commrmt
     printf("%d %d %d \n ", x,y,z);
 }
 int main()
